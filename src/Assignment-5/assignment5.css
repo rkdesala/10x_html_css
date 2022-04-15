@@ -1,7 +1,87 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: aliceblue;
+}
+.main-container-1 {
+  display: flex;
+  background-color: whitesmoke;
+  width: 80%;
+  height: 500px;
+  justify-items: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  border: 5px white solid;
+}
+.main-1-image {
+  width: 45%;
+  height: 500px;
+  background-color: rgb(17, 202, 125);
+}
+.main-1-content {
+  width: 45%;
+  height: 500px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+button {
+  width: 200px;
+  height: 80px;
+  background-color: rgb(17, 202, 125);
+  border: 5px white solid;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+button:hover {
+  font-weight: bold;
+  color: rgb(17, 202, 125);
+  background-color: white;
+}
+.main-container-2 {
+  display: flex;
+  background-color: whitesmoke;
+  width: 80%;
+  height: 500px;
+  justify-items: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  border: 5px white solid;
+}
+.main-2-image {
+  width: 45%;
+  height: 500px;
+  background-color: rgb(17, 202, 125);
+}
+.main-2-content {
+  width: 45%;
+  height: 500px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.image1 {
+  width: 500px;
+  height: 500px;
+}
+.image2 {
+  width: 450px;
+  height: 500px;
+}
+p {
+  text-align: center;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-justify: auto;
+}
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: sans-serif;
 }

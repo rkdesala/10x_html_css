@@ -1,7 +1,115 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+.app-header {
+  height: 100px;
+  background-color: aquamarine;
+  padding: 5px 8px;
+  border: 2px black solid;
+}
+.applogo_container {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.app-search-form {
+  float: right;
+}
+.app-search-input {
+  width: 180px;
+  height: 25px;
+  border: 2px black solid;
+  margin-top: 20px;
+}
+.nav-container {
+  background-color: red;
+  height: 30px;
+  text-align: center;
+  border: 2px black solid;
+  margin-top: 5px;
+  display: flex;
+}
+.app-nav-bar {
+  background-color: white;
+  width: 50px;
+  display: inline-block;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.aside-container-left {
+  float: left;
+  background-color: brown;
+  text-align: center;
+  margin-top: 5px;
+  width: 150px;
+  height: 500px;
+  justify-content: center;
+}
+.aside-container-right {
+  position: absolute;
+  display: flex;
+  background-color: brown;
+  text-align: center;
+  margin-top: 5px;
+  width: 150px;
+  height: 500px;
+  right: 0;
+  top: 163px;
+  justify-content: center;
+}
+.left-list {
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 25px;
+  background-color: white;
+  padding-left: 0px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content-container {
+  width: 77%;
+  background-color: red;
+  margin-top: 5px;
+  margin-left: 155px;
+  height: 500px;
+  border: 2px black solid;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.content-image-container-1 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.content-image-container-2 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.content-container-image {
+  width: 200px;
+  padding: 10px;
+}
+#page-footer {
+  width: 100%;
+  padding: 5px;
+  border: 2px black solid;
+  background-color: bisque;
+  margin-top: 5px;
+  text-align: center;
+}
+#right-side-bar {
+  list-style-type: none;
+  margin-top: 50px;
+  background-color: white;
+  height: 250px;
+  justify-content: center;
 }

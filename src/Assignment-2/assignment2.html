@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-	<script src="bundle.js" type="text/javascript"></script>
-</head>
+  <head>
+    <title></title>
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script src="bundle.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./assignment2.css" type="stylesheet/text" />
+  </head>
 
-<body>
-	<div id="container">
+  <body>
+    <div id="container">
+      <!-- Start your code from here -->
+      <header class="app-header">
+        <div class="applogo_container">
+          <img src="./10x_image.jpeg" width="100px" />
+        </div>
+        <form class="app-search-form">
+          <input
+            class="app-search-input"
+            name="app-search-input"
+            type="text"
+            placeholder="Search"
+          />
+        </form>
+      </header>
+      <nav class="nav-container">
+        <a class="app-nav-bar" href="WWW.google.com">Link 1</a>
+        <a class="app-nav-bar" href="WWW.google.com">Link 2</a>
+        <a class="app-nav-bar" href="WWW.google.com">Link 3</a>
+        <a class="app-nav-bar" href="WWW.google.com">Link 4</a>
+      </nav>
+      <aside class="aside-container-left"/>
+          <ul class="left-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+          </ul>
+      </aside>
+      <section class="content-container">
+				<div class="content-image-container-1">
+					<img class="content-container-image" src="./10x_image.jpeg" />
+        <img class="content-container-image" src="./10x_image.jpeg" />
+        <img class="content-container-image" src="./10x_image.jpeg" />
+				</div>
+				<div class="content-image-container-2">
+					<img class="content-container-image" src="./10x_image.jpeg" />
+        <img class="content-container-image" src="./10x_image.jpeg" />
+        <img class="content-container-image" src="./10x_image.jpeg" />
+				</div>
+      </section>
+      <aside class="aside-container-right">
+        <ul id="right-side-bar"/>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+          <li>Item 6</li>
+        </ul>
+      </aside>
+      <footer id="page-footer">
+				<p> The 10x Academy|||Python Full Stack Developer|||Pay After Placement</p>
+			</footer>
 
-	<!-- Start your code from here -->
-	
+      <!-- End your code -->
+    </div>
 
-	<!-- End your code -->
-
-	</div>
-
-	<script type="text/javascript">
-
-	</script>
-
-</body>
-<script>
-/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-	// Get HTML head element
-	var head = document.getElementsByTagName('HEAD')[0]; 
-	// Create new link Element
-	var link = document.createElement('link');
-	// set the attributes for link element 
-	link.rel = 'stylesheet'; 
-	link.type = 'text/css';
-	link.href = './assignment2.css?v='+ new Date().getTime(); 
-	// Append link element to HTML head
-	head.appendChild(link); 
-	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-</script> 
+    <script type="text/javascript"></script>
+  </body>
+  <script>
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+    // Get HTML head element
+    var head = document.getElementsByTagName("HEAD")[0];
+    // Create new link Element
+    var link = document.createElement("link");
+    // set the attributes for link element
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = "./assignment2.css?v=" + new Date().getTime();
+    // Append link element to HTML head
+    head.appendChild(link);
+    /* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+  </script>
 </html>
