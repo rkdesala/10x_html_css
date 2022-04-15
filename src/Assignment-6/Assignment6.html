@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Todo Notes</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="left_container">
+        <div class="buttons-container">
+          <span
+            ><button id="character_count_button">
+              Characters:<span id="character_value">000</span>
+            </button>
+          </span>
+          <span
+            ><button id="Thread_count_button">
+              Threads:<span id="thread_value">00</span>
+            </button>
+          </span>
+        </div>
+        <div class="text_container">
+          <textarea
+            id="text_box"
+            name="text_area_name"
+            rows="50"
+            cols="50"
+            placeholder="The Character Limit For Each Thread is 275"
+            wrap="soft"
+          ></textarea>
+        </div>
+        <div class="thread_button">
+          <button id="thread_submission_button">Thread</button>
+        </div>
+      </div>
+      <div class="right_container">
+        <h1 id="all_threads_here_heading">Your Threads Will Appear Here</h1>
+        <div class="empty_box">
+          <!--
+          <h1 id="thread_number">
+            Thread:<button id="thread_close_button">CLOSE</button>
+          </h1>
+          <textarea
+            class="sample"
+            style="background: white"
+            rows="25"
+            cols="25"
+            wrap="soft"
+            name="fddfdf"
+          ></textarea>-->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./script.js"></script>
+</html>
